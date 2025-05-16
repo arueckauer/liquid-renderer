@@ -10,6 +10,7 @@ const templateData = {
   user: "Max Mustermann",
   date: new Date().toLocaleDateString(),
   items: ["Apple", "Banana", "Pineapple"],
+  code: "H0WO9FN7",
 };
 
 async function renderLiquid(inputPath, outputDir = "./output") {
